@@ -1,12 +1,7 @@
 
-// A simple module to add a localstorage cache to `Backbone.sync`.
-// objects you have already fetched are retrieved from the local
-// cache. If there isn't a cache, it falls back to 'Backbine.sync'
-// which does not need to be the default implementation
-
-// to use, extend Backbone.CachedModel instead of Backbone.Model
-// for your models. Ensure you define a unique 'cacheName' for each
-// model
+// by Steve Cosman
+// source: https://github.com/scosman/Backbone.CachedModel
+// see README for details
 
 // set of helper funtions
 Backbone.BackboneLocalCache = Backbone.BackboneLocalCache || {};
